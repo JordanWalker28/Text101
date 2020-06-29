@@ -1,11 +1,12 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour
 {
 
-    [SerializeField] Text textComponent;
+    [SerializeField] TextMeshProUGUI textComponent;
     [SerializeField] State StartingState;
 
     State state;

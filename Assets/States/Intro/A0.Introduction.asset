@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c2dfea7af504bbfa72962b8acc16c7, type: 3}
   m_Name: A0.Introduction
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "Welcome to the game. \n\nThis is a choose your own adventure game. Be
+    careful what you wish for in this place... \n\nAt each stage, you'll be asked
+    to choose an option (choose wisely, your decisions may have consequences!) "
+  nextStates:
+  - {fileID: 11400000, guid: d89e0ec0c6ee54866865af6a0dca4407, type: 2}

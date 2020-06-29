@@ -25,3 +25,6 @@ MonoBehaviour:
     1. Take them head on - rush the 10 guards?
 
     2. Sneak my way to the emergency exit?'
+  nextStates:
+  - {fileID: 11400000, guid: c4a6ff4a044c341e7a0d02a01d2d8515, type: 2}
+  - {fileID: 11400000, guid: 7379a1168e65e43ebbfa497c8989d894, type: 2}

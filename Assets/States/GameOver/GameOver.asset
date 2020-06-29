@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c2dfea7af504bbfa72962b8acc16c7, type: 3}
   m_Name: GameOver
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: "You have chosen poorley, this wasn't the right choice! \n\nYou failed.\n\nNo
+    glory or rewards for you.\n\nWant to try again?\n1. Yes, this time I shall win!\n2.
+    No, I'm going to sulk at my failure for a while!"
+  nextStates:
+  - {fileID: 11400000, guid: d89e0ec0c6ee54866865af6a0dca4407, type: 2}
+  - {fileID: 11400000, guid: 90a0e15fe109049ef9d415b823bddc33, type: 2}
