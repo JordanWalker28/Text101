@@ -25,24 +25,14 @@ public class AdventureGame : MonoBehaviour
     private void ManageState()
     {
         var nextStates = state.GetNextStates();
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+
+        for(int index = 0; index < nextStates.Length; index++)
         {
-            state = nextStates[0];
-            getStateStory();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-            getStateStory();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            state = nextStates[2];
-            getStateStory();
-        }
-        else if (Input.GetKey("escape"))
-        {
-            Application.Quit();
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextStates[index];
+                getStateStory();
+            }
         }
     }
 
